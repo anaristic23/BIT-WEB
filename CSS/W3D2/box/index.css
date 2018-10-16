@@ -1,0 +1,33 @@
+h1{
+width: 960px;
+text-align: center;
+background-color: blue;
+color: yellow;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-shadow:10px 10px 10px brown;
+border-radius: 10px 15px 20px 30px;
+}
+
+#prvi{
+    background-color: yellow;
+    max-width: 300px;
+    height: 500px;
+    overflow: hidden;
+}
+
+#drugi{
+background: tomato;
+width: 600px;
+max-height: 200px;
+overflow: scroll;
+}
+
+#treci{
+visibility: hidden;
+}
+
+#cetvrti{
+visibility: hidden;
+}
+
+
