@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: inline-block;
+    width: 5%;
+}
+header div{
+    display: inline-block;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    margin-bottom: 5%;
+}
+.left{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    padding-right: 2.5%;
+}
+.right{
+    display: inline-block;
+    float: left ;
+    padding-left: 2.5%;
+    width: 50%;
+    border-left: black solid;
+}
+article{
+    margin-bottom: 4%;
+}
