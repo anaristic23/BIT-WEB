@@ -247,14 +247,17 @@ header a {
     .about article {
         width: 32%;
         float: left;
+        
     }
     .about img {
         float: left;
         width: 32%;
+        margin-right: 10px;
     }
     
     .about article:nth-of-type(2) {
         float: left;
         width: 32%;
+        
     }
 }
