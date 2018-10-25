@@ -3,21 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
 @font-face {
     font-family: "Roboto";
     src: url('./fonts/Roboto-Regular.ttf');
     font-weight: normal;
 }
 @font-face{
-    font-family: "Roboto";
+    font-family: "Roboto-Bold";
     src: url('./fonts/Roboto-Bold.ttf');
     font-weight: bold;
 }
-
-
-
-
+@font-face{
+    font-family: "Roboto-Thin";
+    src: url("./fonts/Roboto-Medium.ttf");
+    font-weight: normal;
+}
 
 body {
     font-family: "Roboto", Arial, sans-serif;
@@ -30,6 +35,14 @@ a{
 
 ul{
     list-style: none;
+}
+
+h3{
+    text-transform: capitalize;
+}
+
+h2{
+    text-transform: capitalize;
 }
 
 /*
@@ -166,17 +179,82 @@ header a {
 
 }
 
-
-
-
-section h2 {
+/*
+    Section Who We Are  
+*/
+.about {
+    padding: 0 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about h2 {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-section h2::after {
+.about h2::after {
     content: '';
     display: block;
     border-bottom: 1px solid black;
     width: 200px;
     margin: 5px auto 0;
+}
+
+.about article h3{
+    color: #70bce6;
+    margin-bottom: 20px;
+}
+
+.about p{
+    margin-bottom: 20px;
+}
+
+.about ul li {
+    padding-left: 20px;
+    background: url(./images/arrow_bullet.png) no-repeat;
+    margin-bottom: 20px;
+}
+
+.about img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* span li img{
+    width: 10px;
+} */
+@media (min-width: 768px){
+    .about article{
+        float: left;
+        width: 50%;
+    }
+    
+    .about img {
+        float: left;
+        width: 50%;
+    }
+
+    .about article:nth-of-type(2) {
+        width: 100%;
+    }
+}
+@media (min-width: 1200px){
+    .about{
+        padding: 20px;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .about article {
+        width: 32%;
+        float: left;
+    }
+    .about img {
+        float: left;
+        width: 32%;
+    }
+    
+    .about article:nth-of-type(2) {
+        float: left;
+        width: 32%;
+    }
 }
