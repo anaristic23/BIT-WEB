@@ -1,0 +1,18 @@
+p {
+  text-shadow: #b81e1e 1px 0 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 500px;
+  margin: 50px auto; }
+
+div {
+  width: 960px;
+  margin: 0 auto;
+  padding: 100px;
+  border: 2px solid red;
+  -webkit-box-shadow: 10px 90px 5px 0px rgba(186, 28, 186, 0.61);
+  -moz-box-shadow: 10px 90px 5px 0px rgba(186, 28, 186, 0.61);
+  box-shadow: 10px 90px 5px 0px rgba(186, 28, 186, 0.61); }
+
+/*# sourceMappingURL=main.css.map */

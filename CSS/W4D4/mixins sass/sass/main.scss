@@ -1,0 +1,17 @@
+@import 'mixins';
+@import 'variables';
+
+p {
+    @include text-shadow(#b81e1e);
+    @include box-shadow;
+    width: $width-paragraph;
+    margin: 50px auto;
+}
+
+div {
+    width: $width-div;
+    margin: 0 auto;
+    padding: 100px;
+    border: 2px solid red;
+    @include div-shadow;
+}
