@@ -1,0 +1,33 @@
+.card {
+    border: none;
+    margin: 15px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.list-group {
+    margin: 15px 0;
+}
+
+.list-group-item {
+    background-color: rgb(247, 188, 39);
+}
+
+nav ul {
+    background-color: brown;
+}
+
+nav ul a {
+    color: white;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+}
+
+footer p {
+    margin: 10px 0;
+}
