@@ -1,0 +1,16 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-image: url("./bg.jpg");
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    background-color: blue;
+}
+img{
+    position: absolute;
+    bottom: 88px;
+    left: 40%;
+}
